@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 900px;
+    background-color: #9a53ff;
+    margin: 0 auto;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    padding: 20px;
+    margin: 25px;
+    border: 5px solid #ec8aff
+}
+
+.box1{
+    background-color: #ef71e7;
+    border-radius: 50%;
+    line-height: 200px;
+    text-align: center;
+}
+.box2{
+    background-color: #4fffb6;
+    border-radius: 50%;
+    line-height: 200px;
+    text-align: center;
+}
+.box3{
+    background-color: #6291fe;
+    border-radius: 50%;
+    line-height: 200px;
+    text-align: center;
+}
